@@ -11,6 +11,7 @@ import javax.persistence.Id;
 @Entity(name = "Contacts")
 @Getter
 @Setter
+@EqualsAndHashCode
 public class Contact {
 
     @Id
